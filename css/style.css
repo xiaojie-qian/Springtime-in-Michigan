@@ -35,14 +35,14 @@ nav ul li {
    
 
 main {
-    background-color: #DAF7A6; 
+    
     font-size: 150%;
 }
 
 footer {
     background-color:#FFC300;
     color: grey;
-    font-size: 60%;
+    font-size: 100%;
 }
 
 h1 {
@@ -54,5 +54,6 @@ h1 {
 
 p {
     line-height:100% ;
+    background-color: #DAF7A6; 
 }
 
