@@ -10,7 +10,7 @@ header {
 
 nav {
     background-color:#FFC300 ;
-    display: inline-block;
+    display: flex;
     font-size: 120%;
     color: white;
 }
@@ -22,12 +22,12 @@ main {
 
 footer {
     background-color:#900C3F;
-    font-size: 80%;
+    font-size: 150%;
     color: white;
 }
 
 li{
-    display:inline-block ;
+   
     width:120% ;
 }
 
