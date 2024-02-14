@@ -5,12 +5,12 @@ body {
 }
 
 header {
-    background-color:#ECF0F1  ;
+    background-color:#900C3F;
 }
 
 nav {
     background-color: #FFC300;
-    display: flex; /* Changed to flex */
+    display: inline-block;
     justify-content: center; /* Center align the items */
     font-size: 120%;
 }
@@ -19,7 +19,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Added flex display */
+    display: inline-block;
 }
 
 nav ul li {
@@ -33,14 +33,15 @@ main {
 }
 
 footer {
-    background-color:#FF5733
+    background-color:#FF5733;
     color: white;
+    font-size: 150%;
 }
 
 h1 {
     text-align:center ;
     font-family:roboto,'Gill Sans', Calibri,Verdana, sans-serif; 
-    font-size: 200%;
+    font-size: 400%;
     color: White;
     font-weight: bold;
 }
