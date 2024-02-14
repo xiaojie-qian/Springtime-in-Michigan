@@ -10,10 +10,9 @@ header {
 
 nav {
     background-color: #FFC300;
-    display: flex;
     justify-content: center; 
     font-size: 120%;
-    color: white;
+
 }
 
 nav ul {
@@ -24,6 +23,7 @@ nav ul li {
     margin: 0 10px; 
     display: inline-block;
 }
+   
 
 main {
     background-color: #DAF7A6 ; 
@@ -31,8 +31,7 @@ main {
 }
 
 footer {
-    background-color:#900C3F;
-    font-size: 150%;
+    background-color:#FF5733
     color: white;
 }
 
