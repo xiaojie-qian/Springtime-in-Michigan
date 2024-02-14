@@ -10,18 +10,20 @@ header {
 
 nav {
     background-color: #FFC300;
-    justify-content: center; 
+    display: flex; /* Changed to flex */
+    justify-content: center; /* Center align the items */
     font-size: 120%;
-
 }
 
 nav ul {
-    list-style-type: none; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Added flex display */
 }
 
 nav ul li {
-    margin: 0 10px; 
-    display: inline-block;
+    margin: 0 10px;
 }
    
 
