@@ -6,6 +6,7 @@ body {
 
 header {
     background-color:#ECF0F1;
+    align-content: center;
 }
 
 nav {
@@ -24,8 +25,10 @@ nav ul {
 
 nav ul li {
     margin: 0 10px;
-    color: #FF5733 ;
-    font-size: 150%;
+    color: #0dc5ff;
+    font-size: 120%;
+    font-weight: bolder;
+  
 }
 }
 
@@ -46,9 +49,8 @@ h1 {
     text-align:center ;
     font-family:roboto,'Gill Sans', Calibri,Verdana, sans-serif; 
     font-size: 400%;
-    color: #FF5733 ;
-    font-weight: bold;
-}
+    color: #FFC300 ;
+   font-style: italic;}
 
 p {
     line-height:100% ;
