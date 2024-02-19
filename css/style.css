@@ -4,16 +4,29 @@ body {
    
 }
 
+#main{
+    color: #00B200;
+    align-content: flex-start;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.pictures{
+   display: grid;
+   grid-template-columns: repeat(2,35%); 
+   justify-content: center;
+}
+
 header {
     background-color:#ECF0F1;
     align-content: center;
 }
 
+
 nav {
-    background-color: #FFC300;
     display: flex; 
     justify-content: center; 
-    font-size: 120%;
+    font-size: 100%;
 }
 
 nav ul {
@@ -31,7 +44,6 @@ nav ul li {
   
 }
 
-   
 
 main {
     background-color:#DAF7A6;
