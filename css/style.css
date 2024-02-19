@@ -16,6 +16,7 @@ a[href="#main"]:first-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     justify-content: center;
+    gap: 20px;
  }
 
  .pictures_dynamic{
