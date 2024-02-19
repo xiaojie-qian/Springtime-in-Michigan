@@ -4,27 +4,36 @@ body {
     background-color:#ECF0F1;
 }
 
-a[href="#main"]{
-    color: #00B200;
+a[href="#main"]:first-child {
+    color: #00b200;
     align-content: flex-start;
     font-size: 120%;
     font-weight: bold;
 }
 
+
 .pictures{
-   display: grid;
-   grid-template-columns: 40%,40%; 
-   justify-content: center;
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    justify-content: center;
+ }
+
+ .pictures_dynamic{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+ }
 
 header {
     align-content: center;
+    background-color: #FFC300;
 }
 
 
 nav {
     display: flex; 
     justify-content: center; 
+    align-items: baseline;
     font-size: 100%;
 }
 
@@ -47,12 +56,14 @@ nav ul li {
 main {
     background-color:#DAF7A6;
     font-size: 150%;
+    color: black;
 }
 
 footer {
     background-color:#FFC300;
-    color: grey;
+    color: black;
     font-size: 100%;
+    font-weight: bolder;
 }
 
 h1 {
