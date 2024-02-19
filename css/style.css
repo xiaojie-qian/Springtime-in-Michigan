@@ -16,8 +16,8 @@ a[href="#main"]:first-child {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     justify-content: center;
-    grid-row-gap: 20px; 
-    grid-column-gap: 20px;
+    gap: 30px;
+    margin: 20px;
  }
 
  .pictures_dynamic{
