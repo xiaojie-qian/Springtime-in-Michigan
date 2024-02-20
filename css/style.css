@@ -20,11 +20,19 @@ a[href="#main"]:first-child {
     margin: 50px;
  }
 
+.pictures img{
+    border: solid 15px whitesmoke;
+}
+
  .pictures_dynamic{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
  }
+
+ .pictures_dynamic img{
+    border: solid 15px whitesmoke;
+}
 
 header {
     align-content: center;
