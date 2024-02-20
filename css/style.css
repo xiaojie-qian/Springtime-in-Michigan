@@ -22,16 +22,19 @@ a[href="#main"]:first-child {
 
 .pictures img{
     border: solid 15px whitesmoke;
+    margin: 20px;
 }
 
  .pictures_dynamic{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
+    gap: 50px;
  }
 
  .pictures_dynamic img{
     border: solid 15px whitesmoke;
+    margin: 20px;
 }
 
 header {
@@ -49,7 +52,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: ;
     padding: 0;
     display: flex; 
 }
